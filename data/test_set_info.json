@@ -1,0 +1,22 @@
+{
+  "total_samples": 9774,
+  "n_features": 10,
+  "features": [
+    "HighBP",
+    "HighChol",
+    "BMI",
+    "AnyHealthcare",
+    "GenHlth",
+    "PhysHlth",
+    "DiffWalk",
+    "Sex",
+    "Age",
+    "Income"
+  ],
+  "target_column": "diabetes",
+  "class_0_count": 9333,
+  "class_1_count": 441,
+  "test_size_ratio": 0.2,
+  "random_state": 42,
+  "stratified": true
+}

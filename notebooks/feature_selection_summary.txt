@@ -1,0 +1,40 @@
+================================================================================
+FEATURE SELECTION EXPERIMENT - SUMMARY REPORT
+================================================================================
+
+Dataset: Diabetes Prediction (Age 18-44)
+Total samples: 48867
+Total features available: 21
+
+EXPERIMENT PARAMETERS:
+  Feature counts tested: [5, 7, 10, 12, 15, 18, 21]
+  Model: Logistic Regression
+  Balancing: SMOTE
+  Cross-validation: 5-fold Stratified
+
+RESULTS:
+  Recommended features: 10
+  Elbow point: 10 features
+  Statistical significance: Significant
+  P-value (10 vs 21): 0.0000
+
+PERFORMANCE (with recommended features):
+  Accuracy:  0.7738
+  Precision: 0.1361
+  Recall:    0.7506
+  F1-Score:  0.2304
+  ROC-AUC:   0.8362
+
+RECOMMENDED FEATURES (Top 10):
+  1. GenHlth                   (MI Score: 0.0235)
+  2. HighChol                  (MI Score: 0.0166)
+  3. HighBP                    (MI Score: 0.0163)
+  4. BMI                       (MI Score: 0.0146)
+  5. DiffWalk                  (MI Score: 0.0090)
+  6. Age                       (MI Score: 0.0077)
+  7. PhysHlth                  (MI Score: 0.0064)
+  8. Income                    (MI Score: 0.0059)
+  9. PhysActivity              (MI Score: 0.0047)
+  10. Fruits                    (MI Score: 0.0040)
+
+================================================================================
