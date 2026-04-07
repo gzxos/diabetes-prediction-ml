@@ -1,6 +1,6 @@
 # Diabetes Risk Classification System
-> Early detection of diabetes risk in productive age groups (18–44 years) 
-> using Machine Learning — Undergraduate Thesis Project
+> Early detection of diabetes risk in productive age groups (18-44 years) 
+> using Machine Learning - Undergraduate Thesis Project
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Flask](https://img.shields.io/badge/Flask-3.0.0-green)
@@ -20,8 +20,8 @@ web berbasis Flask.
 
 ## Dataset
 - **Sumber:** CDC Behavioral Risk Factor Surveillance System (BRFSS) 2015
-- **Platform:** Kaggle — Diabetes Health Indicators Dataset
-- **Total observasi:** 48.867 (setelah filter usia 18–44 tahun & hapus duplikat)
+- **Platform:** Kaggle - Diabetes Health Indicators Dataset
+- **Total observasi:** 48.867 (setelah filter usia 18-44 tahun & hapus duplikat)
 - **Class distribution:** 95.49% non-diabetes, 4.51% diabetes
 - **Class imbalance handling:** SMOTE (rasio 21.15:1 → 1:1)
 
@@ -67,7 +67,7 @@ web berbasis Flask.
 | Random Forest | 0.9445 | 0.3413 | 0.1293 | 0.1875 | 0.8059 |
 | XGBoost | 0.9510 | 0.4031 | 0.1791 | 0.2480 | 0.8327 |
 
-> **Logistic Regression dipilih** karena recall tertinggi (77.78%) — 
+> **Logistic Regression dipilih** karena recall tertinggi (77.78%) - 
 > dalam konteks skrining kesehatan, mendeteksi sebanyak mungkin 
 > individu berisiko lebih diprioritaskan daripada akurasi keseluruhan.
 
